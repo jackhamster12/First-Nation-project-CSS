@@ -63,3 +63,6 @@ nav li a:hover {
 .content-items {
   width: 100%;
 }
+a {
+  text-decoration: none;
+}
