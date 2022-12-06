@@ -77,3 +77,9 @@ nav li a:focus {
   margin-right: 50px;
   margin-top: 40px;
 }
+.bold-text {
+  font-weight: bold;
+}
+span {
+  font-weight: bold;
+}
