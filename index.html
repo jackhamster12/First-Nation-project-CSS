@@ -16,13 +16,16 @@ Date Last Moditified:-->
       rel="stylesheet"
       type="text/css"
       href="stylesheets/style.css" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
     <!--This command styles the web page.-->
     <style>
 
       #intro {
         margin: 20px 10%;
       }
-
+      
       #image-gallery {
         margin: 20px 10%;
       }
@@ -30,13 +33,28 @@ Date Last Moditified:-->
       figure {
         display: inline-block;
         width: 20%;
-        margin: 0 5%;
+        margin-left: 10%;
       }
 
       figure img {
         width: 100%;
       }
-    </style>
+
+      img {
+        margin: 20px 5%;
+        width: 90%;
+      }
+
+      #long-image {
+        width: 45%;
+      }
+      #youtube-video{
+        float: left;
+        width:560px;
+        margin-left: 80px;
+        margin-top: 25px;
+      }
+      </style>
     <!--This is the closing tag of my style sheet-->
   </head>
 
@@ -44,6 +62,7 @@ Date Last Moditified:-->
     <header>
       <!--this is my first heading-->
       <h1>Treaty One</h1>
+  
     </header>
 
     <!-- This is my navigation -->
@@ -70,7 +89,7 @@ Date Last Moditified:-->
         First Nation and many others.
       </p>
       <!--This is my second paragraph-->
-      <p>
+      <p class="text">
         What was included in the Treaty 1: Canada was formed with the
         shared promises of peace, friendship and mutual respect with
         First Nations in the presence of all of creation. These
@@ -78,14 +97,14 @@ Date Last Moditified:-->
         the grass grows, are to be in effect for peoples now and for
         those yet unborn.
       </p>
-      <p>
+      <p class="text">
         Treaty No. 1 was the first of the numbered treaties that
         helped establish Western Canada, and was made with the
         understanding that the Treaty would be in place for “as long
         as the sun shines, the grass grows and the river flows”
       </p>
 
-      <p>
+      <p class="text">
         Modern treaties, also known as Comprehensive Land Claims
         Agreements, are concluded over long periods of time and
         contain a high level of detail. These sophisticated agreements
@@ -96,7 +115,7 @@ Date Last Moditified:-->
         opened on an urdan reserve. Below is an image of the future
         hotel.
       </p>
-        <p>
+        <p class="text">
           Below are images of important First Nations people that were
           part of Treaty One negotiations:
         </p>
@@ -104,17 +123,23 @@ Date Last Moditified:-->
           <figcaption>
             <span> Chief Yellowquill of Swan Lake First Nation</span>
           </figcaption>
-          <img src="images/Swan-Lake-first-nation.webp" />
+          <img src="images/Swan-Lake-first-nation.webp"
+          alt="Chief Yellow Quill was a Plains Ojibway leader who tried to stop the whites from moving west of Portage la Prairie, Manitoba. 
+          He became an important Plains Ojibway leader in the 1860s and may have participated in the short 1869-1870 Red River Rebellion." />
         </figure>
         <figure>
           <figcaption>
             <span>Chief Peguis of Peguis First Nation</span>
           </figcaption>
-          <img src="images/Treaty-No.-1-J.jpg" />
+          <img src="images/Treaty-No.-1-J.jpg"
+          alt="Chief Peguis who did not live to see the signing of the treaties because he died before the signing of them, but he still was a really big
+          player in the Silkirk treaty that reserved the fishing rights for the First Nation peoples in the Silkirk region." />
         </figure>
         <figure>
           <figcaption><span>Big Bear of Cree Chief</span></figcaption>
-          <img src="images/bear2Leader.gif" />
+          <img src="images/bear2Leader.gif"
+          alt="This is the image of Big Bear of Cree Chief he was another massive player in the treaty negotiations.
+          Mistahimaskwa is best known for his refusal to sign Treaty 6 in 1876 and for his band's involvement in violent conflicts associated with the 1885 North-West Resistance."/>
         </figure>
         <figcaption>
           <figcaption></figcaption>
@@ -123,19 +148,17 @@ Date Last Moditified:-->
 
       <img
         src="images/383-Canada-treaty-map_working-002.png"
-        alt="The map of all the treaties in Canada."
-        class="content-items" />
+        alt="The map of all the treaties in Canada." />
       <!--This is my paragraph explaining the website-->
 
       <!--This is my image of the treaty map-->
       <img
         src="images/mb17map_treaty_1506363954517_eng.jpg"
-        width="500"
-        height="500"
         alt="An image with all the different treaties that are located on the 
           province of Manitoba, and the treaties are 1,2,3,4 and 5 the color of 
-          the map is white and the treaties are coloured in different colors." />
-      <div>
+          the map is white and the treaties are coloured in different colors."
+        id="long-image" />
+      <div id="youtube-video">
         <!--This is my iframe-->
         <iframe
           width="560"
