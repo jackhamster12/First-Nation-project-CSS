@@ -275,6 +275,97 @@ nav {
     from(#033747),
     to(#012733)
   );
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#033747),
+    to(#012733)
+  );
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#033747),
+    to(#012733)
+  );
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#033747),
+    to(#012733)
+  );
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#033747),
+    to(#012733)
+  );
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#033747),
+    to(#012733)
+  );
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#033747),
+    to(#012733)
+  );
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#033747),
+    to(#012733)
+  );
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#033747),
+    to(#012733)
+  );
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#033747),
+    to(#012733)
+  );
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#033747),
+    to(#012733)
+  );
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#033747),
+    to(#012733)
+  );
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#033747),
+    to(#012733)
+  );
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#033747),
+    to(#012733)
+  );
   background-image: -webkit-gradient(linear, left top, left bottom, from(#033747), to(#012733));
   background-image: linear-gradient(#033747, #012733);
 }
@@ -304,7 +395,8 @@ nav li {
   display: inline-block;
 }
 
-nav li a {
+nav li a,
+nav li a:visited {
   text-transform: uppercase;
   padding: 0px 30px;
   color: white;
@@ -331,6 +423,7 @@ a:active {
   /*hover: turquoise;*/
 }
 
+/*---Classes ---*/
 .text {
   margin-left: 50px;
   margin-right: 50px;
@@ -362,4 +455,16 @@ span {
 .center-text {
   text-align: justify;
   padding: 5%;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+}
+
+footer {
+  font-weight: bolder;
+  margin-left: 5%;
 }
