@@ -14,7 +14,7 @@
 html {
   font-size: 62.5%;
 }
-
+/* my styling for the body tag */
 body {
   margin: 0px;
   padding: 0px;
@@ -25,9 +25,11 @@ body {
   font-size: 1.8rem;
   background-color: #ededed;
 }
+/* adds margin to the header*/
 header {
   margin-left: 40%;
 }
+/* styles the header and assignes a font family. */
 h1 {
   font-family: "Noto Serif", serif;
 }
@@ -36,6 +38,7 @@ a {
   cursor: pointer;
 }
 
+/*styles the navigation*/
 nav {
   position: relative;
   width: 100%;
@@ -366,10 +369,66 @@ nav {
     from(#033747),
     to(#012733)
   );
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#033747),
+    to(#012733)
+  );
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#033747),
+    to(#012733)
+  );
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#033747),
+    to(#012733)
+  );
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#033747),
+    to(#012733)
+  );
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#033747),
+    to(#012733)
+  );
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#033747),
+    to(#012733)
+  );
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#033747),
+    to(#012733)
+  );
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#033747),
+    to(#012733)
+  );
   background-image: -webkit-gradient(linear, left top, left bottom, from(#033747), to(#012733));
   background-image: linear-gradient(#033747, #012733);
 }
-
+/*Styles my navigation*/
 nav ul {
   position: absolute;
   top: 50%;
@@ -391,10 +450,11 @@ nav ul {
   transform: translateY(-50%);
 }
 
+/* navigation displays inline block*/
 nav li {
   display: inline-block;
 }
-
+/* Changes color for the "visited" links.*/
 nav li a,
 nav li a:visited {
   text-transform: uppercase;
@@ -402,7 +462,7 @@ nav li a:visited {
   color: white;
   text-decoration: none;
 }
-
+/*Changes the color when you are hovering oevr a link*/
 nav li a:hover,
 nav li a:focus {
   color: #ff8c69;
@@ -411,6 +471,7 @@ nav li a:focus {
   -moz-transition: all 0.4s ease 0s;
   transition: all 0.4s ease 0s;
 }
+/* gives the "anchor" the color of "#033747".*/
 a {
   color: #033747;
 }
@@ -420,7 +481,6 @@ a:visited {
 a:hover,
 a:active {
   color: rgba(0, 123, 255, 0.769);
-  /*hover: turquoise;*/
 }
 
 /*---Classes ---*/
@@ -445,25 +505,25 @@ span {
   width: 48%;
   padding: 10px;
 }
-
+/*sets row after content to table.*/
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
-
+/* text-alignes text to justify.*/
 .center-text {
   text-align: justify;
   padding: 5%;
 }
-
+/*Sets the center margin to "auto"*/
 .center {
   margin-left: auto;
   margin-right: auto;
   display: block;
   text-align: center;
 }
-
+/*Sets the "footer" to "bolder" with "margin" of 5%.*/
 footer {
   font-weight: bolder;
   margin-left: 5%;
